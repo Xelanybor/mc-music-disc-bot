@@ -1,0 +1,5 @@
+services:
+  bot:
+    image: mc-music-disc-bot:latest
+    volumes:
+      - ./data/audioplayer_uploads:/files
